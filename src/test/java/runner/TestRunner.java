@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources",glue = {"stepdefinations.LoginSteps","stepdefinations.DocumentSearchSteps"})
+@CucumberOptions(features = "classpath:LoginHome.feature",glue = {"stepdefinations"})
 public class TestRunner {
 
 }

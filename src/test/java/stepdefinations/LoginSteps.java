@@ -18,7 +18,7 @@ public class LoginSteps {
     }
 
     @When("user enter {string} and {string}")
-    public void userEnterAnd(String arg0, String arg1) throws InterruptedException {
+    public void user_enter_and(String arg0, String arg1) throws InterruptedException {
         service.enterUsernamePassword(arg0,arg1,driver);
     }
     @And("click on login button")
